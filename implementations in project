@@ -25,3 +25,13 @@ implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1'
 implementation 'com.google.android.gms:play-services-maps:18.1.0'
 
 ----------------------------------------------------------------------------------------
+
+ <application
+        android:allowBackup="true"   
+        android:usesCleartextTraffic="true" />
+        
+----------------------------------------------------------------------------------------
+        
+        buildFeatures {
+        viewBinding true
+    }

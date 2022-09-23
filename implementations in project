@@ -1,5 +1,6 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    
     <!--
     Provides an estimate of the device's location that is as accurate as possible,
     usually within about 160 feet (50 meters) and sometimes as accurate as within
@@ -22,3 +23,5 @@ implementation("androidx.fragment:fragment-ktx:1.5.2")
 implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
 implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1'
 implementation 'com.google.android.gms:play-services-maps:18.1.0'
+
+----------------------------------------------------------------------------------------
